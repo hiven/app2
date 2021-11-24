@@ -1,7 +1,6 @@
-"""Application entry point."""
-from flask_blueprint_tutorial import init_app
+from app import create_app
 
-app = init_app()
+app = create_app()
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+if __name__ == '__main__':
+    app.run()
