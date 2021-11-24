@@ -1,15 +1,15 @@
 from flask import Flask
-from flask_migrate import Migrate
+# from flask_migrate import Migrate
 from config import DevelopmentConfig
 
 # import extensions instance
-from app.models import db
-from app.models import login_manager
-from flask_mail import Mail
+# from app.models import db
+# from app.models import login_manager
+# from flask_mail import Mail
 
 # instance of migrate flask
-migrate = Migrate()
-mail = Mail()
+# migrate = Migrate()
+# mail = Mail()
 
 
 def create_app(config=DevelopmentConfig):
